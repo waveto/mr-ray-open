@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+	<title>Mr Ray. Wav-e-mail</title>
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/themes/smoothness/jquery-ui.css" type="text/css" />
+	<link rel="stylesheet" href="{{robot_web}}web/style/header.css" type="text/css" />
+	<link rel="stylesheet" href="{{robot_web}}web/style/renderwave.css" type="text/css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="{{robot_web}}web/lib/json2.js"></script>
+	<script type="text/javascript" src="{{robot_web}}web/lib/base64.js"></script>
+	{% include "components/javascriptconfig.html" %}
+	<script type="text/javascript">
+		var waveletJson = '{{wave_json}}';
+	</script>
+	<script type="text/javascript" src="{{robot_web}}web/js/renderwavev2.min.js"></script>
+
+    </head>
+    <body>
+        {% include "components/header.html" %}
+
+	<div id="wavecontent" class="ui-corner-all">
+		<div id="header" class="ui-corner-top">
+			<div id="headertitle" class="ui-corner-top">
+			</div>
+			<div id="participants">
+			</div>
+		</div>
+		<div id="blips">
+		</div>
+	</div>
+
+        <div id="replyform" title="Reply to a blip" style="visibility:hidden;">
+            <form id="replyformelement">
+				<div id="responseNameContainer" style="display:none;"><label for="responderName">Your Name: </label><input type="text" id="responderName" name="responderName" class="text ui-widget-content ui-corner-all reply-container" /></div>
+				<div id="responseNameContainerError" style="display:none;" class="ui-state-error ui-corner-all reply-container error">This name is not valid, it can only contain 'a-z', 'A-Z', '1-9', and '_'</div>
+				<div id="responseContainer"><textarea cols="70" rows="3" name="response" id="response" class="text ui-widget-content ui-corner-all reply-container"></textarea></div>
+            </form>
+        </div>
+
+        <div id="replysubmitgenericerror" title="Cannot submit your reply" style="visibility:hidden;">
+            <p>There was an error submitting your reply. You may want to try again.</p>
+        </div>
+
+		<div id="replysubmitnotparticipanterror" title="Cannot submit your reply" style="visibility:hidden;">
+			<p>Your reply could not be submitted because you or the Mr-Ray robot have been removed from the Wave. To continue to use the Mr-Ray service you will need to contact someone directly on the Wave.</p>
+		</div>
+        {% include "components/footer.html" %}
+    </body>
+</html>

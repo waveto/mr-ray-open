@@ -1,0 +1,51 @@
+application: mr-ray
+version: 1
+runtime: python
+api_version: 1
+
+default_expiration: "5d"
+
+handlers:
+- url: /web
+  static_dir: web
+  
+- url: /wave
+  script: renderWave.py
+
+- url: /wave/action/
+  script: actionWave.py
+
+- url: /favicon.ico
+  static_files: web/media/favicon.ico
+  upload: web/media/favicon.ico
+
+- url: /robots.txt
+  static_files: static/robots.txt
+  upload: static/robots.txt
+
+- url: /_ah/queue/deferred
+  script: $PYTHON_LIB/google/appengine/ext/deferred/deferred.py
+  login: admin
+
+
+
+
+
+- url: /
+  script: redirects.py
+
+
+- url: /_wave/capabilities.xml
+  script: robot.py
+
+- url: /_wave/robot/profile
+  script: robot.py
+  
+- url: /_wave/robot/jsonrpc
+  script: robot.py
+  
+- url: /_wave/verify_token
+  script: robot.py
+
+inbound_services:
+- mail

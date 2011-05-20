@@ -1,0 +1,122 @@
+#gadget_content {
+    font-size: 10pt;
+}
+
+.container_border {
+    -moz-border-radius: 7px 7px 6px 6px;
+    -webkit-border-radius: 7px 7px 6px 6px; 
+    background:none repeat scroll 0 0 #C9E2FC;
+    border-color: white white white;
+    border-style: solid;
+    border-width: 1px;
+    font-size: small;
+    margin-bottom: 3px;
+    padding: 0px;
+}
+
+.header_content {
+    -moz-border-radius: 6px 6px 0px 0px;
+    -webkit-border-radius: 6px 6px 0px 0px;
+    background: none repeat scroll 0 0 #5590D2;
+    border-color: #5590D2 #5590D2 #5590D2;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 3px;
+    padding: 3px 5px 1px 5px;
+}
+
+.wavetolink {
+    text-align:right;
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: xx-small;
+    white-space: nowrap;
+  	overflow: hidden;
+}
+
+.gadgettitle {
+    text-align:left;
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: small;
+    width: 100%;
+}
+
+#participants p {
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: x-small;
+    margin: 0 5 0 5px;
+}
+
+#participants ul {
+    padding: 0px 0px 0px 10px;
+    margin: 8px 0px 8px 0px;
+}
+
+#participants li {
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: x-small;
+    margin: 0px 5px 0px 17px;
+    list-style-type: decimal;
+}
+
+#add_participant_input {
+    padding: 2px 5px 2px 5px;
+    width: 100%;
+    font-family: arial,sans-serif;
+    font-size: small;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    background: url("http://mr-ray.appspot.com/web/media/inputbackground.png") repeat-x scroll 50% top #EEEEEE;
+    border: 1px solid #DDDDDD;
+    color: #333333;
+    display: block;
+    position: relative;
+    margin: 0px 5px 0px 5px;
+}
+
+#add_participant_butt {
+    outline: 0;
+    padding: 2px 5px 2px 5px; 
+    text-decoration:none !important; 
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    cursor:pointer; 
+    position: relative; 
+    text-align: center; 
+    zoom: 1;
+    margin: 0px 5px 0px 5px;
+    color: black;
+}
+
+.add_participant_input_container {
+    width: 100%;
+    padding: 1px 10px 1px 1px;
+}
+
+#errors {
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: small;
+    margin: 0px 8px 0px 8px;
+    background-color: red;
+    font-weight: bold;
+    -moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    padding: 0px 5px 0px 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+#errors p {
+    margin: 3px 0px 3px 0px;
+}
+
+#add_participant_working {
+    margin 20px 0px 20px 0px;
+}
+
+

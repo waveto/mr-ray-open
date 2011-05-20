@@ -1,0 +1,22 @@
+#errorheader h1{
+	font-family: arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+#errortype h2{
+	font-family: arial, sans-serif;
+    font-size: small;
+	font-weight: normal;
+}
+
+#errordetails p{
+	font-family: arial, sans-serif;
+    font-size: x-small;
+}
+
+#errorcode p{
+	font-family: arial, sans-serif;
+    font-size: x-small;
+	color: gray;
+}

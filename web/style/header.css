@@ -1,0 +1,25 @@
+#mrrayheadertable {
+	width:100%;	
+}
+
+#mrraylinks {
+	text-align:right;
+	font-family: arial, sans-serif;
+    font-size: small;
+}
+
+#mrraytitlecontainer {
+	width:100%;	
+}
+
+.mrraytitle {
+	font-family: arial, sans-serif;
+    font-size: medium;
+}
+
+.mrraycomment {
+	font-family: arial, sans-serif;
+    font-size: small;
+    color: gray;
+    text-indent:20px;
+}

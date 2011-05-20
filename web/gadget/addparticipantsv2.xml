@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <ModulePrefs title="Email Participants">
+        <Require feature="wave" /> 
+        <Require feature="dynamic-height" />  
+    </ModulePrefs>
+    <Content type="html">
+    <![CDATA[
+        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/smoothness/jquery-ui.css" type="text/css" />
+        <link rel="stylesheet" href="http://mr-ray.appspot.com/web/gadget/style/addparticipantsv2.css" type="text/css" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="http://mr-ray.appspot.com/web/lib/json2.js"></script>
+        <script type="text/javascript" src="http://mr-ray.appspot.com/web/lib/base64.js"></script>
+        
+        
+        <div id="gadget_container" class="ui-corner-all">
+        
+            <div id="header" class="ui-corner-top">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="gadgettitle">Email Participants</td>
+                            <td class="wavetolink"><a href="http://wave.to/projects/mr-ray" target="_blank">wave.to</a> | <a href="http://wave.to/projects/mr-ray/terms-and-conditions" target="_blank">Terms of use</a> | <a href="http://wave.to/projects/mr-ray/bugs" target="_blank">Found a bug?</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div id="content"></div>
+            <div id="actions"></div>
+        </div>
+        <script type="text/javascript" src="http://mr-ray.appspot.com/web/gadget/js/addparticipantsv2.js"></script>
+    ]]>
+    </Content>
+</Module>

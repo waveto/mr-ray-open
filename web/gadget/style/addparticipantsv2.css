@@ -1,0 +1,147 @@
+#gadget_container {
+    -moz-border-radius: 7px 7px 6px 6px;
+    -webkit-border-radius: 7px 7px 6px 6px; 
+    background:none repeat scroll 0 0 #C9E2FC;
+    border-color: white white white;
+    border-style: solid;
+    border-width: 1px;
+    font-size: small;
+    margin-bottom: 3px;
+    padding: 0px;
+}
+
+#header {
+    -moz-border-radius: 6px 6px 0px 0px;
+    -webkit-border-radius: 6px 6px 0px 0px;
+    background: none repeat scroll 0 0 #5590D2;
+    border-color: #5590D2 #5590D2 #5590D2;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 3px;
+    padding: 3px 5px 1px 5px;
+}
+
+.wavetolink {
+    text-align:right;
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: xx-small;
+    white-space: nowrap;
+  	overflow: hidden;
+}
+
+.wavetolink a:link, .wavetolink a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.wavetolink a:hover, .wavetolink a:active {
+    text-decoration: underline;
+    color: white;
+}
+
+.gadgettitle {
+    text-align:left;
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: small;
+    width: 100%;
+}
+
+#emailUserListTitle {
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    margin: 5px 0px 0px 0px;
+}
+
+#emailUserList {
+    padding: 0px 0px 0px 10px;
+    margin: 8px 0px 8px 0px;
+}
+
+#emailUserList li {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    margin: 0px 5px 0px 17px;
+    list-style-type: decimal;
+}
+
+.waveButton {
+    outline: 0;
+    padding: 2px 5px 2px 5px; 
+    text-decoration:none !important; 
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    cursor:pointer; 
+    position: relative; 
+    text-align: center; 
+    zoom: 1;
+    margin: 0px 5px 0px 5px;
+    color: black;
+    float: right;
+}
+
+#actions {
+    margin: 6px 0px 0px 0px;
+    overflow: auto;
+    width: 100%;
+    height: 30px;
+}
+
+.attention {
+    margin : 6px 0px 0px 0px;
+    padding: 5px 5px 5px 5px;
+    font-size: small;
+}
+.attention .waveButton {
+    top: -3;
+}
+
+.attention a:link, .attention a:visited {
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.attention a:hover, .attention a:active {
+    text-decoration: underline;
+    font-weight:bold;
+}
+
+#emailUserList li a {
+    float: right;
+    position: relative;
+    font-size: x-small;
+}
+
+#content {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    padding: 0px 10px 0px 10px;
+}
+
+#newEmailInput, #messageInput {
+    padding: 2px 5px 2px 5px;
+    width: 100%;
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    background: url("http://mr-ray.appspot.com/web/media/inputbackground.png") repeat-x scroll 50% top #EEEEEE;
+    border: 1px solid #DDDDDD;
+    color: #333333;
+    display: block;
+    position: relative;
+    margin: 0px 5px 0px 5px;
+}
+
+dd {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}

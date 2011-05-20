@@ -1,0 +1,8 @@
+<extension name="Mr-Ray" description="Lets you add e-mail users to a Wave and communicate with them like Wave participants. E-mail users that you add are able to communicate back into Wave using a Wave like interface finally bringing e-mail integration to Google Wave. Visit http://wave.to/projects/mr-ray/ for full details including help and instructions." thumbnailUrl="http://mr-ray.appspot.com/web/media/icon.png" >
+	<author name="wave.to" email="tom@wave.to" />
+	<menuHook location="newwavemenu" text="New Wave with e-mail participants" iconUrl="http://mr-ray.appspot.com/web/media/icon.png" >
+		<createNewWave>
+			<participant id="mr-ray@appspot.com" />
+		</createNewWave>
+	</menuHook>
+</extension>

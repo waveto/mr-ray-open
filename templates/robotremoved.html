@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+		<title>Mr Ray. Wav-e-mail</title>
+		<link rel="stylesheet" href="{{robot_web}}web/style/header.css" type="text/css" />
+		<link rel="stylesheet" href="{{robot_web}}web/style/errorpage.css" type="text/css" />
+    </head>
+    <body>
+		{% include "components/header.html" %}
+		<div id="errorheader">
+			<h1>Whoops! Look like something went wrong!</h1>
+		</div>
+		<div id="errortype">
+			<h2>The Mr-Ray robot was removed from this Wave</h2>
+		</div>
+		<div id ="errordetails">
+			<p>Mr-Ray must be a participant in the Wave for you to view it. You could try contacting someone already on the Wave directly and ask them to add Mr-Ray.</p>
+			{% include "components/errorcodereport.html" %}
+		</div>
+		{% include "components/footer.html" %}
+    </body>
+</html>

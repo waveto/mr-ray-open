@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+		<title>Mr Ray. Wav-e-mail</title>
+		<link rel="stylesheet" href="{{robot_web}}web/style/header.css" type="text/css" />
+		<link rel="stylesheet" href="{{robot_web}}web/style/errorpage.css" type="text/css" />
+    </head>
+    <body>
+		{% include "components/header.html" %}
+        <div id="errorheader">
+            <h1>You have been removed from the wave.</h1>
+        </div>
+        <div id="errortype">
+            <h2>Someone in the Wave has removed you. You should contact a participant of the Wave directly.</h2>
+        </div>
+        <div id="errordetails">
+            {% include "components/errorcodereport.html" %}
+        </div>
+		{% include "components/footer.html" %}
+    </body>
+</html>
